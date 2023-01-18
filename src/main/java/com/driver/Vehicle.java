@@ -40,4 +40,20 @@ public class Vehicle {
     public int getCurrentSpeed() {
         return currentSpeed;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setCurrentDirection(int currentDirection) {
+        this.currentDirection = currentDirection;
+    }
+
+    public void setCurrentSpeed(int currentSpeed) {
+        this.currentSpeed = currentSpeed;
+    }
+
+    public String getName() {
+        return name;
+    }
 }

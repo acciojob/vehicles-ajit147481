@@ -21,6 +21,11 @@ public class Car extends Vehicle {
 
     }
 
+    public boolean isManual() {
+        return isManual;
+    }
+
+
     public Car() {
         super();
     }
