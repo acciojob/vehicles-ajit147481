@@ -1,8 +1,8 @@
 package com.driver;
 
 public class F1 extends Car {
-    String name;
-    boolean isManual;
+    private String name;
+    private boolean isManual;
     public F1(String name, boolean isManual) {
         super();
         //Use arbitrary values for parameters which are not mentioned
@@ -46,5 +46,13 @@ public class F1 extends Car {
             changeGear(6);
             move(newSpeed,getCurrentDirection());
         }
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 }
